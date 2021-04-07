@@ -1,3 +1,11 @@
 ---
 Name: nswdpc-notification-boilerplate
+After:
+  - '#emailconfig'
 ---
+# Use Mailgun mailer
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Control\Email\Email:
+    class: 'NSWDPC\Messaging\Mailgun\MailgunEmail'
+  SilverStripe\Control\Email\Mailer:
+    class: 'NSWDPC\Messaging\Mailgun\MailgunMailer'
