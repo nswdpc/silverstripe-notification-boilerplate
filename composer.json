@@ -21,9 +21,13 @@
       "email",
       "sms",
       "mailgun",
-      "notify"
+      "notify",
+      "mailchimp",
+      "subscribe",
+      "newsletter"
     ],
     "require": {
+        "nswdpc/silverstripe-chimple": "^0.2",
         "nswdpc/silverstripe-mailgun-sync": "^1"
     },
     "config": {
