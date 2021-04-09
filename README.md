@@ -4,17 +4,20 @@ Default modules for notification handling in NSWDPC Silverstripe websites
 
 ## Modules
 
-+ nswdpc/silverstripe-mailgun-sync
++ nswdpc/silverstripe-mailgun-sync - Send emails via Mailgun and handle webhook submissions
++ nswdpc/silverstripe-chimple - Collect newsletter subscriptions via Mailchimp
 
 ## Configuration
 
-There is no configuration (yet) for this boilerplate. The defaults from included module configurations are used.
+Basic configuration [is available](./_config/config.yml). Override and apply further configuration in your project.
 
 ## Installation
 
 The only supported way of installing this boilerplate is via [composer](https://getcomposer.org)
 
-`composer require nswdpc/silverstripe-notification-boilerplate`
+```shell
+composer require nswdpc/silverstripe-notification-boilerplate
+```
 
 ## LICENSE
 
