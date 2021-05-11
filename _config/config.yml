@@ -2,6 +2,8 @@
 Name: nswdpc-notification-boilerplate
 After:
   - '#emailconfig'
+Only:
+  environment: 'live'
 ---
 # Use Mailgun mailer
 SilverStripe\Core\Injector\Injector:
