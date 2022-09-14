@@ -29,7 +29,7 @@
     "require": {
         "nswdpc/silverstripe-chimple": "^0.2",
         "nswdpc/silverstripe-mailgun-sync": "^1",
-        "nswdpc/silverstripe-userforms-ipcollection": "^0.1"
+        "nswdpc/silverstripe-userforms-ipcollection": "^0.2"
     },
     "config": {
         "process-timeout": 600
