@@ -1,11 +1,10 @@
 # Silverstripe notification boilerplate
 
-Default modules for notification handling in NSWDPC Silverstripe websites
-
-## Modules
+Installs the following modules:
 
 + nswdpc/silverstripe-mailgun-sync - Send emails via Mailgun and handle webhook submissions
 + nswdpc/silverstripe-chimple - Collect newsletter subscriptions via Mailchimp
++ nswdpc/silverstripe-userforms-ipcollection - IP collection for userform submissions
 
 ## Configuration
 
@@ -25,7 +24,7 @@ composer require nswdpc/silverstripe-notification-boilerplate
 
 ## Maintainers
 
-+ [dpcdigital@NSWDPC:~$](https://dpc.nsw.gov.au)
++ PD Web Team
 
 ## Bugtracker
 

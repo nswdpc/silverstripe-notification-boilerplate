@@ -1,38 +1,41 @@
 {
     "name": "nswdpc/silverstripe-notification-boilerplate",
-    "description": "Default modules for notification handling in NSWDPC Silverstripe websites",
+    "description": "Opinionated list of modules related to notifications",
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "James Ellis",
-            "homepage": "https://dpc.nsw.gov.au",
             "role": "Developer"
         },
         {
             "name": "Mark Taylor",
-            "homepage": "https://dpc.nsw.gov.au",
             "role": "Developer"
         }
     ],
     "keywords": [
-      "silverstripe",
-      "notifications",
-      "email",
-      "sms",
-      "mailgun",
-      "notify",
-      "mailchimp",
-      "subscribe",
-      "newsletter"
+        "silverstripe",
+        "notifications",
+        "email",
+        "sms",
+        "mailgun",
+        "notify",
+        "mailchimp",
+        "subscribe",
+        "newsletter"
     ],
     "require": {
-        "nswdpc/silverstripe-chimple": "^0.2",
-        "nswdpc/silverstripe-mailgun-sync": "^1",
-        "nswdpc/silverstripe-userforms-ipcollection": "^0.2"
+        "nswdpc/silverstripe-chimple": "^1",
+        "nswdpc/silverstripe-mailgun-sync": "^2",
+        "nswdpc/silverstripe-userforms-ipcollection": "^1"
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "allow-plugins": {
+            "composer/installers": true,
+            "php-http/discovery": true,
+            "silverstripe/vendor-plugin": true
+        }
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
